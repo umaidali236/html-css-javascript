@@ -7,7 +7,7 @@ html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
-    background: #eee;
+    background: #efefec;
     height: auto;
 }
 
@@ -33,11 +33,11 @@ img {
 main {
     max-width: 900px;
     margin: auto;
-    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1)
+    box-shadow: 30px 0px 40px rgba(5, 108, 80, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1)
 }
 
 #landing {
-    background: #fff;
+    background: #e8f4a6;
 }
 
 #landing-text {
@@ -52,44 +52,59 @@ main {
 }
 
 #landing-text h2 {
-    color: #888;
+    color: #767590;
 }
 
 #landing-image {
-    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background: url(https://images.unsplash.com/photo-1546805022-9c4e4ab7e3a3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHNsciUyMGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
-    flex: 0 1 60vw;
+    flex: 0 1 2000vw;
     margin: 0;
 }
 
 .btn {
     padding: 0.5rem 2rem;
-    border: 1px solid #ccc;
+    border: 1px solid #0bdc5fec;
     display: inline-block;
     margin: 2rem 0 0;
     border-radius: 50px;
-    text-decoration: none;
-    color: #333;
+    text-decoration:none;
+    color: #160fe3;
     transition: background 500ms ease;
 }
 
 .btn:hover {
-    background: #f4f4f4;
+    background: rgb(93, 98, 235);
+}
+
+#about {
+    padding: 1.5rem;
+    text-align: center;
+    background: #150101;
+    color: #e6c7c7;
+    
+}
+#about h2 {
+    border-left: 1px dotted #ec1515;
+    border-right: 1px dotted #e60e0e;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 #header {
     padding: 1.5rem;
     text-align: center;
-    background: #333;
-    color: #fff;
+    background: #150101;
+    color: #e6c7c7;
 }
 
 #header h2 {
-    border-left: 1px dotted #fff;
-    border-right: 1px dotted #fff;
+    border-left: 1px dotted #ec1515;
+    border-right: 1px dotted #e60e0e;
     display: inline-block;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -104,7 +119,7 @@ footer {
     text-align: center;
     padding: 2rem 1rem;
     margin: auto;
-    color: #333;
+    color: #0a0324;
 }
 
 footer h3 {
@@ -114,7 +129,7 @@ footer h3 {
 
 footer p a {
     text-decoration: none;
-    color: red;
+    color: rgb(230, 16, 141);
 }
 
 /*Screen Sizes 500px +*/
