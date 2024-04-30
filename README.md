@@ -1,5 +1,2 @@
 # html-css-javascript
-
-## Learn about web development.  
-
-
+learn about web development
