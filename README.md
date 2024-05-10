@@ -1,3 +1,3 @@
 # html-css-javascript
 
-learn about web development.
+Learning the basics of web development using HTML , CSS and JavaScript.
