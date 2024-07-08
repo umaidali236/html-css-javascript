@@ -1,6 +1,6 @@
 # Web Development Resources
 
-Learning the basics of web development using HTML , CSS and JavaScript from tutorials.
+Learning the basics of web development using HTML , CSS and JavaScript from tutorials. 
 
 ## Index
 
